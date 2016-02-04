@@ -11,6 +11,7 @@ Application
 1. Vehicle tracking system for locating a vehicle or generating alerts.
 2. Geolocation based software systems for writing  business logics based on location of the user. 
 3. Computer graphics, in locating a point.
+4. Computer vision systems.
 
 Usage
 =====
