@@ -19,6 +19,7 @@ Usage
 
 2. Import and start using it.
 
+```
     import geofence
    
     #An example of square 
@@ -36,6 +37,7 @@ Usage
     print g.is_inside( ( 4.9, 1.2 ) )
     print g.is_inside( ( 1.8, 1.1 ) ) 
 
+```
 
 Disclaimer
 ==========
