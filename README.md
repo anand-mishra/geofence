@@ -17,6 +17,10 @@ Usage
 
 1. Download the geofence.py.
 
+```
+    wget https://raw.githubusercontent.com/anand-mishra/geofence/master/geofence.py
+```
+
 2. Import and start using it.
 
 ```
