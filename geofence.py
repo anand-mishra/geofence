@@ -75,7 +75,6 @@ class Circle(object):
             center should be tuple of coordinates in (x, y) form;
             radius should be scalar value represnting radius of the circle.
         """
-        print args, len(args)
         assert len(args) == 2, "there must be exactly two arguments."
         assert type(()) == type(args[0]), "first part of argument must be a tuple."
         assert args[1] > 0, "radius must be positive value."
