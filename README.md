@@ -18,26 +18,26 @@ Usage
 
 1. Download the geofence.py.
 
-    wget https://raw.githubusercontent.com/anand-mishra/geofence/master/geofence.py
+        wget https://raw.githubusercontent.com/anand-mishra/geofence/master/geofence.py
 
 2. Import and start using it.
 
-    import geofence
-   
-    #An example of square 
-    g = Geofence('polygon')
-    g.set_shape( ( 1, 1 ), ( 1, 2 ), ( 2, 2 ), ( 2, 1 ) )
-    print g.is_inside( ( 1.5, 1.5 ) )
-    print g.is_inside( ( 4.9, 1.2 ) )
-    print g.is_inside( ( 1.8, 1.1 ) )
+        import geofence
+       
+        #An example of square 
+        g = Geofence('polygon')
+        g.set_shape( ( 1, 1 ), ( 1, 2 ), ( 2, 2 ), ( 2, 1 ) )
+        print g.is_inside( ( 1.5, 1.5 ) )
+        print g.is_inside( ( 4.9, 1.2 ) )
+        print g.is_inside( ( 1.8, 1.1 ) )
 
 
-    #An example of circle
-    g = Geofence('circle')
-    g.set_shape( ( 1 , 1 ), 3)
-    print g.is_inside( ( 1.5, 1.5 ) )
-    print g.is_inside( ( 4.9, 1.2 ) )
-    print g.is_inside( ( 1.8, 1.1 ) ) 
+        #An example of circle
+        g = Geofence('circle')
+        g.set_shape( ( 1 , 1 ), 3)
+        print g.is_inside( ( 1.5, 1.5 ) )
+        print g.is_inside( ( 4.9, 1.2 ) )
+        print g.is_inside( ( 1.8, 1.1 ) ) 
 
 
 Disclaimer
